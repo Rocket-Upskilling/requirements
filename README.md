@@ -1,3 +1,23 @@
+# How to use KIKODO
+inside the script:
+```javascript
+
+            {
+                requestKernel: true,
+                binderOptions: {
+                repo: "binder-examples/requirements",
+                codeMirrorConfig: {
+                    "theme": "abcdef",
+                    "lineNumbers": true,
+                    "matchBrackets" : true,
+                    "autoCloseBrackets": true
+                },
+            },
+        }
+
+```
+
+change `repo: "binder-examples/requirements",` to `repo: "Rocket-Upskilling/requirements",` and add the changes to the `requirements.txt` file
 # Python environment with a requirements.txt
 
 [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/requirements/master)
